@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA9846CD251FF670009A9A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9846CC251FF670009A9A2E /* AppDelegate.swift */; };
+		FA9846CF251FF670009A9A2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9846CE251FF670009A9A2E /* SceneDelegate.swift */; };
+		FA9846D1251FF670009A9A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9846D0251FF670009A9A2E /* ViewController.swift */; };
+		FA9846D4251FF670009A9A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9846D2251FF670009A9A2E /* Main.storyboard */; };
+		FA9846D7251FF670009A9A2E /* PasteTextPersistence.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA9846D5251FF670009A9A2E /* PasteTextPersistence.xcdatamodeld */; };
+		FA9846D9251FF671009A9A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9846D8251FF671009A9A2E /* Assets.xcassets */; };
+		FA9846DC251FF671009A9A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9846DA251FF671009A9A2E /* LaunchScreen.storyboard */; };
+		FA9846E7251FF671009A9A2E /* PasteTextPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9846E6251FF671009A9A2E /* PasteTextPersistenceTests.swift */; };
+		FA9846F2251FF671009A9A2E /* PasteTextPersistenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9846F1251FF671009A9A2E /* PasteTextPersistenceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA9846E3251FF671009A9A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9846C1251FF670009A9A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9846C8251FF670009A9A2E;
+			remoteInfo = PasteTextPersistence;
+		};
+		FA9846EE251FF671009A9A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9846C1251FF670009A9A2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9846C8251FF670009A9A2E;
+			remoteInfo = PasteTextPersistence;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA9846C9251FF670009A9A2E /* PasteTextPersistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasteTextPersistence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9846CC251FF670009A9A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA9846CE251FF670009A9A2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA9846D0251FF670009A9A2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA9846D3251FF670009A9A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA9846D6251FF670009A9A2E /* PasteTextPersistence.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasteTextPersistence.xcdatamodel; sourceTree = "<group>"; };
+		FA9846D8251FF671009A9A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA9846DB251FF671009A9A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA9846DD251FF671009A9A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9846E2251FF671009A9A2E /* PasteTextPersistenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasteTextPersistenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9846E6251FF671009A9A2E /* PasteTextPersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteTextPersistenceTests.swift; sourceTree = "<group>"; };
+		FA9846E8251FF671009A9A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9846ED251FF671009A9A2E /* PasteTextPersistenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasteTextPersistenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9846F1251FF671009A9A2E /* PasteTextPersistenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteTextPersistenceUITests.swift; sourceTree = "<group>"; };
+		FA9846F3251FF671009A9A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA9846C6251FF670009A9A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9846DF251FF671009A9A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9846EA251FF671009A9A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA9846C0251FF670009A9A2E = {
+			isa = PBXGroup;
+			children = (
+				FA9846CB251FF670009A9A2E /* PasteTextPersistence */,
+				FA9846E5251FF671009A9A2E /* PasteTextPersistenceTests */,
+				FA9846F0251FF671009A9A2E /* PasteTextPersistenceUITests */,
+				FA9846CA251FF670009A9A2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA9846CA251FF670009A9A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA9846C9251FF670009A9A2E /* PasteTextPersistence.app */,
+				FA9846E2251FF671009A9A2E /* PasteTextPersistenceTests.xctest */,
+				FA9846ED251FF671009A9A2E /* PasteTextPersistenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA9846CB251FF670009A9A2E /* PasteTextPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				FA9846CC251FF670009A9A2E /* AppDelegate.swift */,
+				FA9846CE251FF670009A9A2E /* SceneDelegate.swift */,
+				FA9846D0251FF670009A9A2E /* ViewController.swift */,
+				FA9846D2251FF670009A9A2E /* Main.storyboard */,
+				FA9846D8251FF671009A9A2E /* Assets.xcassets */,
+				FA9846DA251FF671009A9A2E /* LaunchScreen.storyboard */,
+				FA9846DD251FF671009A9A2E /* Info.plist */,
+				FA9846D5251FF670009A9A2E /* PasteTextPersistence.xcdatamodeld */,
+			);
+			path = PasteTextPersistence;
+			sourceTree = "<group>";
+		};
+		FA9846E5251FF671009A9A2E /* PasteTextPersistenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA9846E6251FF671009A9A2E /* PasteTextPersistenceTests.swift */,
+				FA9846E8251FF671009A9A2E /* Info.plist */,
+			);
+			path = PasteTextPersistenceTests;
+			sourceTree = "<group>";
+		};
+		FA9846F0251FF671009A9A2E /* PasteTextPersistenceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA9846F1251FF671009A9A2E /* PasteTextPersistenceUITests.swift */,
+				FA9846F3251FF671009A9A2E /* Info.plist */,
+			);
+			path = PasteTextPersistenceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA9846C8251FF670009A9A2E /* PasteTextPersistence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9846F6251FF671009A9A2E /* Build configuration list for PBXNativeTarget "PasteTextPersistence" */;
+			buildPhases = (
+				FA9846C5251FF670009A9A2E /* Sources */,
+				FA9846C6251FF670009A9A2E /* Frameworks */,
+				FA9846C7251FF670009A9A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasteTextPersistence;
+			productName = PasteTextPersistence;
+			productReference = FA9846C9251FF670009A9A2E /* PasteTextPersistence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA9846E1251FF671009A9A2E /* PasteTextPersistenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9846F9251FF671009A9A2E /* Build configuration list for PBXNativeTarget "PasteTextPersistenceTests" */;
+			buildPhases = (
+				FA9846DE251FF671009A9A2E /* Sources */,
+				FA9846DF251FF671009A9A2E /* Frameworks */,
+				FA9846E0251FF671009A9A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA9846E4251FF671009A9A2E /* PBXTargetDependency */,
+			);
+			name = PasteTextPersistenceTests;
+			productName = PasteTextPersistenceTests;
+			productReference = FA9846E2251FF671009A9A2E /* PasteTextPersistenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA9846EC251FF671009A9A2E /* PasteTextPersistenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9846FC251FF671009A9A2E /* Build configuration list for PBXNativeTarget "PasteTextPersistenceUITests" */;
+			buildPhases = (
+				FA9846E9251FF671009A9A2E /* Sources */,
+				FA9846EA251FF671009A9A2E /* Frameworks */,
+				FA9846EB251FF671009A9A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA9846EF251FF671009A9A2E /* PBXTargetDependency */,
+			);
+			name = PasteTextPersistenceUITests;
+			productName = PasteTextPersistenceUITests;
+			productReference = FA9846ED251FF671009A9A2E /* PasteTextPersistenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA9846C1251FF670009A9A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FA9846C8251FF670009A9A2E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					FA9846E1251FF671009A9A2E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = FA9846C8251FF670009A9A2E;
+					};
+					FA9846EC251FF671009A9A2E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = FA9846C8251FF670009A9A2E;
+					};
+				};
+			};
+			buildConfigurationList = FA9846C4251FF670009A9A2E /* Build configuration list for PBXProject "PasteTextPersistence" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA9846C0251FF670009A9A2E;
+			productRefGroup = FA9846CA251FF670009A9A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA9846C8251FF670009A9A2E /* PasteTextPersistence */,
+				FA9846E1251FF671009A9A2E /* PasteTextPersistenceTests */,
+				FA9846EC251FF671009A9A2E /* PasteTextPersistenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA9846C7251FF670009A9A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9846DC251FF671009A9A2E /* LaunchScreen.storyboard in Resources */,
+				FA9846D9251FF671009A9A2E /* Assets.xcassets in Resources */,
+				FA9846D4251FF670009A9A2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9846E0251FF671009A9A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9846EB251FF671009A9A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA9846C5251FF670009A9A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9846D7251FF670009A9A2E /* PasteTextPersistence.xcdatamodeld in Sources */,
+				FA9846D1251FF670009A9A2E /* ViewController.swift in Sources */,
+				FA9846CD251FF670009A9A2E /* AppDelegate.swift in Sources */,
+				FA9846CF251FF670009A9A2E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9846DE251FF671009A9A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9846E7251FF671009A9A2E /* PasteTextPersistenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9846E9251FF671009A9A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9846F2251FF671009A9A2E /* PasteTextPersistenceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA9846E4251FF671009A9A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA9846C8251FF670009A9A2E /* PasteTextPersistence */;
+			targetProxy = FA9846E3251FF671009A9A2E /* PBXContainerItemProxy */;
+		};
+		FA9846EF251FF671009A9A2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA9846C8251FF670009A9A2E /* PasteTextPersistence */;
+			targetProxy = FA9846EE251FF671009A9A2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA9846D2251FF670009A9A2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9846D3251FF670009A9A2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA9846DA251FF671009A9A2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9846DB251FF671009A9A2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA9846F4251FF671009A9A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA9846F5251FF671009A9A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA9846F7251FF671009A9A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 364ZG8V8HQ;
+				INFOPLIST_FILE = PasteTextPersistence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hauffealex.PasteTextPersistence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA9846F8251FF671009A9A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 364ZG8V8HQ;
+				INFOPLIST_FILE = PasteTextPersistence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hauffealex.PasteTextPersistence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA9846FA251FF671009A9A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 364ZG8V8HQ;
+				INFOPLIST_FILE = PasteTextPersistenceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hauffealex.PasteTextPersistenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasteTextPersistence.app/PasteTextPersistence";
+			};
+			name = Debug;
+		};
+		FA9846FB251FF671009A9A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 364ZG8V8HQ;
+				INFOPLIST_FILE = PasteTextPersistenceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hauffealex.PasteTextPersistenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasteTextPersistence.app/PasteTextPersistence";
+			};
+			name = Release;
+		};
+		FA9846FD251FF671009A9A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 364ZG8V8HQ;
+				INFOPLIST_FILE = PasteTextPersistenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hauffealex.PasteTextPersistenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasteTextPersistence;
+			};
+			name = Debug;
+		};
+		FA9846FE251FF671009A9A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 364ZG8V8HQ;
+				INFOPLIST_FILE = PasteTextPersistenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hauffealex.PasteTextPersistenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasteTextPersistence;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA9846C4251FF670009A9A2E /* Build configuration list for PBXProject "PasteTextPersistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9846F4251FF671009A9A2E /* Debug */,
+				FA9846F5251FF671009A9A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9846F6251FF671009A9A2E /* Build configuration list for PBXNativeTarget "PasteTextPersistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9846F7251FF671009A9A2E /* Debug */,
+				FA9846F8251FF671009A9A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9846F9251FF671009A9A2E /* Build configuration list for PBXNativeTarget "PasteTextPersistenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9846FA251FF671009A9A2E /* Debug */,
+				FA9846FB251FF671009A9A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9846FC251FF671009A9A2E /* Build configuration list for PBXNativeTarget "PasteTextPersistenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9846FD251FF671009A9A2E /* Debug */,
+				FA9846FE251FF671009A9A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA9846D5251FF670009A9A2E /* PasteTextPersistence.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA9846D6251FF670009A9A2E /* PasteTextPersistence.xcdatamodel */,
+			);
+			currentVersion = FA9846D6251FF670009A9A2E /* PasteTextPersistence.xcdatamodel */;
+			path = PasteTextPersistence.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA9846C1251FF670009A9A2E /* Project object */;
+}
